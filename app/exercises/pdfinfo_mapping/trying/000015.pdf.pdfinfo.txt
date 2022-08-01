@@ -1,0 +1,19 @@
+Title:          Document
+Subject:        Extracted Pages
+Author:         U.S. Government Printing Office
+Creator:        ACOMP.exe   WinVer 1b43  jul 14 2003
+Producer:       Acrobat Distiller 4.0 for Windows
+CreationDate:   Tue May 24 22:23:55 2005 EDT
+ModDate:        Tue May 24 22:23:55 2005 EDT
+Tagged:         no
+UserProperties: no
+Suspects:       no
+Form:           none
+JavaScript:     no
+Pages:          2
+Encrypted:      no
+Page size:      612 x 792 pts (letter)
+Page rot:       0
+File size:      55964 bytes
+Optimized:      no
+PDF version:    1.5

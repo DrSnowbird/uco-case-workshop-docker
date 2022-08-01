@@ -1,0 +1,6 @@
+black
+flake8
+case-prov
+mypy
+pytest
+rdflib >= 6.2.0

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "drafting": "http://example.org/ontology/drafting/",
+    "kb": "http://example.org/kb/",
+    "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "uco-observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "kb:pdf-file-99600dbd-e0f7-4c1e-9b38-f6cff62074fe",
+      "@type": "uco-observable:PDFFile",
+      "uco-core:hasFacet": {
+        "@id": "_:N43f1de06a25748cc8ab671e7eb508503"
+      }
+    },
+    {
+      "@id": "_:N43f1de06a25748cc8ab671e7eb508503",
+      "@type": "uco-observable:PDFFileFacet",
+      "drafting:pdfAuthor": "U.S. Government Printing Office",
+      "drafting:pdfCreationDate": {
+        "@type": "xsd:dateTime",
+        "@value": "2005-05-25T02:23:55+00:00"
+      },
+      "drafting:pdfModifiedDate": {
+        "@type": "xsd:dateTime",
+        "@value": "2005-05-25T02:23:55+00:00"
+      },
+      "drafting:pdfTitle": "Document",
+      "uco-observable:version": "1.5"
+    }
+  ]
+}

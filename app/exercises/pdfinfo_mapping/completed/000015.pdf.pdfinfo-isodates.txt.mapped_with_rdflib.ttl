@@ -1,0 +1,14 @@
+@prefix drafting: <http://example.org/ontology/drafting/> .
+@prefix kb: <http://example.org/kb/> .
+@prefix uco-core: <https://ontology.unifiedcyberontology.org/uco/core/> .
+@prefix uco-observable: <https://ontology.unifiedcyberontology.org/uco/observable/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kb:pdf-file-cef4d60d-ad27-4e43-95ae-497ef57c514c a uco-observable:PDFFile ;
+    uco-core:hasFacet [ a uco-observable:PDFFileFacet ;
+            drafting:pdfAuthor "U.S. Government Printing Office"^^xsd:string ;
+            drafting:pdfCreationDate "2005-05-25T02:23:55+00:00"^^xsd:dateTime ;
+            drafting:pdfModifiedDate "2005-05-25T02:23:55+00:00"^^xsd:dateTime ;
+            drafting:pdfTitle "Document"^^xsd:string ;
+            uco-observable:version "1.5"^^xsd:string ] .
+

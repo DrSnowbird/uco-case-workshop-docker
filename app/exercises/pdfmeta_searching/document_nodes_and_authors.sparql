@@ -1,0 +1,14 @@
+PREFIX drafting: <http://example.org/ontology/drafting/>
+PREFIX uco-observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
+
+SELECT ?nPDFFile ?lAuthor
+WHERE {
+  ?nPDFFile
+    a uco-observable:PDFFile ;
+    uco-core:hasFacet ?nPDFFileFacet ;
+    .
+
+  ?nPDFFileFacet
+    drafting:pdfAuthor ?lAuthor ;
+    .
+}

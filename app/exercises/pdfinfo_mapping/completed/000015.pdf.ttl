@@ -1,0 +1,27 @@
+@prefix kb: <http://example.org/kb/> .
+@prefix uco-core: <https://ontology.unifiedcyberontology.org/uco/core/> .
+@prefix uco-observable: <https://ontology.unifiedcyberontology.org/uco/observable/> .
+@prefix uco-types: <https://ontology.unifiedcyberontology.org/uco/types/> .
+@prefix uco-vocabulary: <https://ontology.unifiedcyberontology.org/uco/vocabulary/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kb:file-8eb919dc-7a02-4616-8761-913c5240f4b0 a uco-observable:File ;
+    uco-core:hasFacet [ a uco-observable:ContentDataFacet ;
+            uco-observable:hash [ a uco-types:Hash ;
+                    uco-types:hashMethod "MD5"^^uco-vocabulary:HashNameVocab ;
+                    uco-types:hashValue "89324e4ac32f045023b272e726e04f11"^^xsd:hexBinary ],
+                [ a uco-types:Hash ;
+                    uco-types:hashMethod "SHA256"^^uco-vocabulary:HashNameVocab ;
+                    uco-types:hashValue "eca0f217f9fdbc5f9509894e45b247dc4cb611f534832bd368f791f4bd14796b"^^xsd:hexBinary ],
+                [ a uco-types:Hash ;
+                    uco-types:hashMethod "SHA1"^^uco-vocabulary:HashNameVocab ;
+                    uco-types:hashValue "3f456f5228b21cf708b59f6092eea4d915502fa5"^^xsd:hexBinary ],
+                [ a uco-types:Hash ;
+                    uco-types:hashMethod "SHA512"^^uco-vocabulary:HashNameVocab ;
+                    uco-types:hashValue "cc2f2f73b33abeb7f29892298eb5f9a19d07ccda4aa2cc2626750d58ee9b44da287ee7b134e421ca6ff504d5a792ffc907aede2c065fda7c31701ca556ac0ce5"^^xsd:hexBinary ] ;
+            uco-observable:sizeInBytes 55964 ],
+        [ a uco-observable:FileFacet ;
+            uco-observable:fileName "000015.pdf" ;
+            uco-observable:modifiedTime "2005-05-25T07:27:37+00:00"^^xsd:dateTime ;
+            uco-observable:sizeInBytes 55964 ] .
+
